@@ -29,7 +29,7 @@ namespace numberSwapping
              */
             int randomNumber1 = 10, randomNumber2 = 20;
             //before Swapping
-            Console.WriteLine(@"Bewfore Swaping without using 3rd variable Number1 = " + randomNumber1 +",Number2 ="+randomNumber2);
+            Console.WriteLine(@"Before Swaping without using 3rd variable Number1 = " + randomNumber1 +",Number2 ="+randomNumber2);
             
             //Re-initialized
             randomNumber1 = randomNumber1 * randomNumber2;
@@ -37,7 +37,7 @@ namespace numberSwapping
             randomNumber1 = randomNumber1 / randomNumber2;
             
             //After Swapping
-            Console.WriteLine(@"Bewfore Swaping without using 3rd variable Number1 =" + randomNumber1 + ",Number2 =" + randomNumber2);
+            Console.WriteLine(@"After Swaping without using 3rd variable Number1 =" + randomNumber1 + ",Number2 =" + randomNumber2);
             Console.ReadKey();
         }
     }
